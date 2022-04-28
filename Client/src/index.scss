@@ -1,0 +1,19 @@
+@use 'Sass/Config/variables' as *;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $bgColor;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.outline-0 {
+  outline: none;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px 5px #ddd , -2px -2px 5px #ddd;
+}
+
